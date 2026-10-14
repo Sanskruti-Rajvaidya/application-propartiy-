@@ -1,0 +1,15 @@
+//main appln Prop
+
+spring.application.name=C998_4_B13_SpringProfilee-3
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+
+spring.profiles.active=dev
+
+
+
+//environments like prod, dev, uat
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+spring.datasource.username=postgresDev
+spring.datasource.password=Pass@123
