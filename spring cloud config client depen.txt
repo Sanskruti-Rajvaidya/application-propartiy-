@@ -1,0 +1,3 @@
+
+#application prop for the spring cloud client 
+spring.config.import=optional:configserver:http://localhost:8888
