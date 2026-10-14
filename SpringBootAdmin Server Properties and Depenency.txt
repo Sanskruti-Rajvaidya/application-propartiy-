@@ -1,0 +1,32 @@
+//Server Properties and name can be anything
+
+spring.application.name=C98_SpringBootAdminDashboard
+server.port=9090
+
+# Simple login for Dashboard
+spring.security.user.name=admin
+spring.security.user.password=admin123
+
+
+
+
+//server Dependency
+			<dependency>
+   			 	<groupId>de.codecentric</groupId>
+    		q		<artifactId>spring-boot-admin-starter-server</artifactId>
+    				<version>3.3.4</version>
+			</dependency>
+
+
+
+
+OR //after complete <dependenciew> tag
+		<dependencyManagement>
+			<dependency>
+				<groupId>de.codecentric</groupId>
+				<artifactId>spring-boot-admin-dependencies</artifactId>
+				<version>${spring-boot-admin.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+	</dependencyManagement>
